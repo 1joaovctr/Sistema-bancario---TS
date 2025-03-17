@@ -11,7 +11,7 @@ let 1: string | number: = "João";
 
 Nesse caso a variável aceitaria valores de string e de number, ou se pode usar também o:
 
-let 1 any = "João"
+let 1: any = "João"
 
 Nesse caso a variável aceitaria todos os tipos como uma variável no JS, mas isso faria perder o sentido de usar TS, já que essa tipagem é a principal diferença entre as duas linguagens.
 
