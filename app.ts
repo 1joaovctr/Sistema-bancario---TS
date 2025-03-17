@@ -18,7 +18,7 @@ Nesse caso a variável aceitaria todos os tipos como uma variável no JS, mas is
 --> Exemplos de tipagem no TS:
 
 let a: string = "João";
-let b: number = 3;
+let b: number = 28;
 let c: boolean = true;
 
 
@@ -74,7 +74,7 @@ if(num > 15) {
 const typeUser = {
     admin: "Seja bem vindo, admin.",
     student: "Você é um estudandte da plataforma.",
-    viewer: "Você pode apenas visualizar."
+    viewer: "Seu usuário permite apenas visualização."
 }
 
 function validateUser(user: string) {
